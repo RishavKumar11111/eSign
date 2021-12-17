@@ -1,0 +1,14 @@
+<html>
+     
+<body>
+    <%=xml%>
+    <form action="https://nic-esigngateway.nic.in/eSign21/acceptClient" method="POST" >
+        <input type="hidden" name="xml" value='<%=xml%>'>
+        <!-- <input type="hidden" name="clientrequestURL" value="https://odishaagrilicense.nic.in/"> -->
+        <input type="hidden" name="username" value="niladri">
+        <input type="hidden" name="userid" value="1">
+        <input type="hidden" name="clientid" value="2">
+        <input type="submit" value="Sign">
+    </form>
+</body>
+</html>
